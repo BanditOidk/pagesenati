@@ -1,0 +1,198 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-image: radial-gradient(circle at 50% -20.71%, #d7c35d 0, #deba54 8.33%, #e4b04d 16.67%, #e9a546 25%, #ed9841 33.33%, #f0893e 41.67%, #f2793c 50%, #f3673d 58.33%, #f35542 66.67%, #f34249 75%, #f22b52 83.33%, #f0065d 91.67%, #ec0069 100%);
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    justify-content: center;    
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    font-size: 1.5em;
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px ;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);;
+    font-size: 2.1em;
+    font-family:Arial, Helvetica, sans-serif
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px ;
+
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+header a:hover{
+    color: rgb(255, 217, 0) ;
+}
+
+
+img{
+    margin: 10px 10px 10px 10px;
+    display: inline-flex;
+    border-radius: 10%;
+    
+}
+section .container{
+    text-align: center;
+    padding: 10px 12px;
+}
+footer{
+    background-color: rgb(245, 89, 89);
+    padding: 10px 12px;
+    position: relative;
+}
+#contacto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#copy{
+    text-align: right;
+}
+
+
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.container .card{
+    
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 12px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+    
+}
+
+.container .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card h4{
+    font-weight: 600;
+}
+.container .card p{
+    padding: 0 2rem;
+    font-weight: 300;
+    font-size: 14px;
+}
+.container .card a{
+    font-weight: 1000;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#modal{
+    text-align: center;
+}
+#modal h1{
+    text-align: center;
+    position: relative;
+    
+}
+#modal p{
+    text-align: left;
+    width: 205px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 250px; left: 350px;
+    
+}
+#modal a{
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#modal img{
+    position: relative;
+    top: 50px;
+    width: 355px;
+    height: 355px;
+    vertical-align: middle;
+}
+
+
+
+
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+        background-image: radial-gradient(circle at 49.65% 45.97%, #e97600 0, #ef6600 12.5%, #f35400 25%, #f63c00 37.5%, #f80f0f 50%, #f9001e 62.5%, #f8002b 75%, #f70037 87.5%, #f50044 100%);
+        
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    
+    
+}
